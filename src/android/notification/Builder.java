@@ -151,7 +151,7 @@ public class Builder {
             builder.setLargeIcon(options.getIconBitmap());
         }
         
-        builder.setStyle(new NotificationCompat.BigTextStyle() .bigText(options.getText()));
+        builder.setStyle(new NotificationCompat.BigTextStyle().bigText(options.getText()));
 
         applyDeleteReceiver(builder);
         applyContentReceiver(builder);
